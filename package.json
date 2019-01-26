@@ -4,7 +4,7 @@
   "description": "custom react hook, use effect once, support cleanup",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "parcel build ./src/index.ts",
+    "publish": "npm publish --access public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
