@@ -1,0 +1,28 @@
+{
+  "name": "@aximario/use-once",
+  "version": "1.0.0",
+  "description": "custom react hook, use effect once, support cleanup",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "parcel build ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aximario/use-once.git"
+  },
+  "keywords": [
+    "react hook",
+    "useEffect",
+    "use-once"
+  ],
+  "author": "aximario<aximario@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aximario/use-once/issues"
+  },
+  "homepage": "https://github.com/aximario/use-once#readme",
+  "peerDependencies": {
+    "react": "^16.8.0-alpha.1"
+  }
+}
