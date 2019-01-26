@@ -2,7 +2,7 @@
   "name": "@aximario/use-once",
   "version": "1.0.0",
   "description": "custom react hook, use effect once, support cleanup",
-  "main": "./dist/index.js",
+  "main": "./index.js",
   "scripts": {
     "publish": "npm publish --access public",
     "test": "echo \"Error: no test specified\" && exit 1"
