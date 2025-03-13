@@ -1,10 +1,8 @@
-const React = require('react')
+const { useEffect } = require('react');
 
 module.exports = function useOnce(once, cleanup) {
-    React.useEffect(function() {
-        once()
-        if (cleanup) {
-            return cleanup
-        }
-    }, [])
+    useEffect(() => {
+        once();
+        return cleanup;
+    }, []);
 }
